@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner-part {
+  padding: 80px 0px;
+  background-image: url("../../image/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-content {
+  padding: 80px 0px;
+}
+.banner-content h1 {
+  font-size: 64px;
+  letter-spacing: 1.5px;
+  color: rgb(49, 48, 48);
+  margin-bottom: 0px;
+}
+
+.banner-content h3 {
+  letter-spacing: 1.5px;
+  color: rebeccapurple;
+}
+.btn-style {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 14px 30px;
+  border-radius: 50px;
+  outline: none;
+  border: 2px solid #0392ce;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.btn-style:hover {
+  color: white;
+  cursor: pointer;
+  transition: 0.2s all ease-in;
+  background-color: #0392ce;
+}
