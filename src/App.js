@@ -6,13 +6,14 @@ import About from './components/About/About';
 import Doctors from './components/Doctors/Doctors';
 import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
-import Login from './components/Login/Login';
-import Registration from './components/Registration/Registration';
+import Login from './components/Login/Register';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
 
 
 function App() {
+
+  
 
   return (
     <div className="App">
@@ -41,9 +42,6 @@ function App() {
               </Route>
               <Route path="/login">
                  <Login></Login>
-              </Route>
-              <Route path="/registration">
-               <Registration></Registration>
               </Route>
               <Route path="*">
                   <NotFound></NotFound>
